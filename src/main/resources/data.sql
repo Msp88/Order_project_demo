@@ -1,0 +1,2 @@
+insert into customer_order (email, call_number, address) values ('aleast.88@gmail.com','789-77-88','Chkalova Street, 30-244');
+insert into customer_order (email, call_number, address) values ('aleast.90@gmail.com','111-11-88','Srednerogatskaya Street, 16-365');
