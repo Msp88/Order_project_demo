@@ -19,7 +19,7 @@ public class CustomerOrderMapperImpl implements CustomerOrderMapper {
         customerOrder.setId(customerOrderDto.getId());
         customerOrder.setAddress(customerOrderDto.getAddress());
         customerOrder.setEmail(customerOrderDto.getEmail());
-        customerOrder.setCallNumber(customerOrderDto.getCallNumber());
+        customerOrder.setPhoneNumber(customerOrderDto.getPhoneNumber());
 
         return customerOrder;
     }
@@ -34,7 +34,7 @@ public class CustomerOrderMapperImpl implements CustomerOrderMapper {
         customerOrderDto.setId(customerOrder.getId());
         customerOrderDto.setAddress(customerOrder.getAddress());
         customerOrderDto.setEmail(customerOrder.getEmail());
-        customerOrderDto.setCallNumber(customerOrder.getCallNumber());
+        customerOrderDto.setPhoneNumber(customerOrder.getPhoneNumber());
 
         return customerOrderDto;
     }

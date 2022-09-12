@@ -15,8 +15,8 @@ public class CustomerOrder {
     @Column(name = "email")
     String email;
 
-    @Column(name = "call_number")
-    String callNumber;
+    @Column(name = "phone_number")
+    String phoneNumber;
 
     @Column(name = "address")
     String address;
