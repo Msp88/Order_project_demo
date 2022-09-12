@@ -1,7 +1,7 @@
 package com.rustcompany.app.order_demo_project.controllers;
 
 import com.rustcompany.app.order_demo_project.dto.CustomerOrderDto;
-import com.rustcompany.app.order_demo_project.exception_hadnling.NoSuchOrderException;
+import com.rustcompany.app.order_demo_project.exception_handling.NoSuchOrderException;
 import com.rustcompany.app.order_demo_project.services.CustomerOrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

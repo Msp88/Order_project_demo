@@ -1,4 +1,4 @@
-package com.rustcompany.app.order_demo_project.exception_hadnling;
+package com.rustcompany.app.order_demo_project.exception_handling;
 
 public class NoSuchOrderException extends RuntimeException{
 
